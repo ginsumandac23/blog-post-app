@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
+:root {
+  --primary-color: #102B8C;
+  --dark-text-heading: #191C1E;
+}
+
+
+body {
+	background: #f7f9fb;
+	font-size: 14px;
+	color: #454652;
+	font-family: "Inter", sans-serif;
+}
+
+
+#banner {
+	min-height: 340px;
+}
+
+.banner-text h1 {
+	color: var(--primary-color);
+	font-size: 16px;
+	letter-spacing: 1.6px;
+}
+
+.banner-text h5 {
+	color: var(--dark-text-heading);
+	font-family: "Playfair", serif;
+	font-size: 16px;
+}
+
+.banner-divider {
+	background: #2E44A3;
+    width: 96px;
+    height: 5px;
+    margin: 0 auto;
+}
+
+.latest-post-container h2{
+	color: var(--dark-text-heading);
+	font-family: "Playfair", serif;
+	font-size: 20px;
+}
+
+.post-card .card-title {
+	color: #505F76;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-family: "Playfair", serif;
+}
+
+.post-card .post-date {
+	color: var(--dark-text-heading);
+	font-size: 13px;
+}
+.post-card .card-text {
+	font-size: 14px;
+	color: #454652;
+}
+
+
+
+#register, #login {
+  min-height: 85vh;
+}
+
+.auth-box {
+  background: #fff;
+}
+
+.auth-box h2 {
+	color: var(--primary-color);
+	font-family: "Playfair", serif;
+	font-weight: 500;
+	font-size: 48px;
+}
+
+.auth-box label {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.auth-next-link {
+	color: var(--primary-color);
+}
+
+/* input styling */
+.custom-input {
+  padding-left: 40px; /* space for icon */
+  height: 45px;
+  border-radius: 8px;
+}
+
+/* icon inside input */
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #94a3b8;
+  font-size: 1rem;
+}
+
+.btn-auth {
+  background: var(--primary-color);
+  line-height: 50px;
+  font-size: 20px;
+  color: #fff;
+}
+
+.btn-auth:hover {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+}
+
+
+/* Blogs page */
+
+.sort-select {
+  padding-right: 40px; /* space for icon */
+  background-color: #102B8C;
+  color: #fff;
+  border: 1px solid #334155;
+}
+
+/* icon inside */
+.sort-icon {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none; /* so select is still clickable */
+  color: #94a3b8;
+}
+
+/* remove default arrow (optional for cleaner look) */
+.sort-select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+/* End Blogs page */
