@@ -21,7 +21,8 @@ db.once('open', ()=> console.log("Now Connected to Database"));
 const corsOption = {
   origin: [
     "http://localhost:5173",
-    "http://localhost:4000"
+    "http://localhost:4000",
+    "https://blog-post-app-beige-sigma.vercel.app"
   ],
   credentials: true,
   optionSuccessStatus: 200
